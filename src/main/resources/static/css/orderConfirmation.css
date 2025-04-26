@@ -1,0 +1,42 @@
+/* Thiết lập màu nền cho body */
+body {
+    background-color: #f8f9fa;
+    background-image: linear-gradient(to bottom right, #c7e2ff, #a1d2ff); /* Hình nền gradient xanh nhạt dần */
+    background-size: cover; /* Đảm bảo hình nền cover toàn bộ */
+}
+
+/* Thiết lập style cho phần container chính */
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Màu nền phần nội dung với độ trong suốt */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Thiết lập style cho tiêu đề h1 */
+h1 {
+    color: #007bff; /* Màu chữ cho tiêu đề */
+    margin-bottom: 20px;
+}
+
+/* Thiết lập style cho thông báo thành công */
+p {
+    font-size: 18px;
+    color: #28a745; /* Màu chữ cho thông báo thành công */
+    margin-top: 20px;
+}
+
+/* Thiết lập style cho nút Back to Home */
+.btn-home {
+    margin-top: 20px;
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #ffffff; /* Màu chữ cho nút */
+}
+
+.btn-home:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}

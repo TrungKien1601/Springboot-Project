@@ -1,0 +1,23 @@
+body {
+    background-image: url('/images/bg.png'); /* Đường dẫn tới hình ảnh nền */
+    background-size: cover; /* Hình ảnh sẽ bao phủ toàn bộ màn hình */
+    background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+    background-attachment: fixed; /* Cố định hình ảnh khi cuộn trang */
+    background-position: center; /* Đặt hình ảnh ở trung tâm */
+}
+
+h1 {
+     color: white;
+}
+
+.form-action p {
+    color: white;
+    text-align: center;
+}
+.form-action p a {
+    color: white; /* Đặt màu chữ cho liên kết */
+    text-decoration: underline; /* Thêm gạch chân cho liên kết */
+}
+.form-action p a:hover {
+    color: #17a2b8; /* Màu chữ khi hover */
+}

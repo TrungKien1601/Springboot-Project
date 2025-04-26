@@ -1,0 +1,32 @@
+body {
+    background-image: url('/images/bg1.png'); /* Đường dẫn tới hình ảnh nền */
+    background-size: cover; /* Hình ảnh sẽ bao phủ toàn bộ màn hình */
+    background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+    background-attachment: fixed; /* Cố định hình ảnh khi cuộn trang */
+    background-position: center; /* Đặt hình ảnh ở trung tâm */
+}
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9); /* Đặt màu nền trắng với độ trong suốt */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-group label {
+    font-weight: bold;
+}
+.form-check-label {
+    margin-left: 5px;
+}
+.form-action {
+    margin-top: 20px;
+}
+.form-action p {
+    text-align: center;
+}

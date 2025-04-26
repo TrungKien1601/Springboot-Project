@@ -1,0 +1,65 @@
+/* Thiết lập màu nền cho body */
+body {
+    background-color: #f8f9fa;
+    background-image: linear-gradient(to bottom right, #c7e2ff, #a1d2ff); /* Hình nền gradient xanh nhạt dần */
+    background-size: cover; /* Đảm bảo hình nền cover toàn bộ */
+}
+
+/* Thiết lập style cho phần container chính */
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Màu nền phần nội dung với độ trong suốt */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Thiết lập style cho tiêu đề h1 */
+h1 {
+    color: #007bff; /* Màu chữ cho tiêu đề */
+    margin-bottom: 20px;
+}
+
+/* Thiết lập style cho bảng sản phẩm */
+.table {
+    margin-top: 20px;
+}
+
+/* Thiết lập style cho các nút hành động */
+.btn {
+    font-size: 14px;
+}
+
+/* Thiết lập màu nền và viền cho nút Remove */
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+/* Thiết lập màu nền và viền cho nút Clear Cart */
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+/* Thiết lập màu nền và viền cho nút Check Out */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
